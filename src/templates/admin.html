@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles_admin.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+    </header>
+ 
+    <main>
+        <h2>Welcome, Admin</h2>
+        <a href="/logout">Logout</a>
+        <p>Select an option from the menu to manage the restaurant's dishes.</p>
+        <a href="/dishes">Manage Dishes</a>
+        
+    </main>
+    <footer>
+        &copy; 2024 Your Restaurant Name. All rights reserved.
+    </footer>
+</body>
+</html>
